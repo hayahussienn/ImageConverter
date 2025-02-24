@@ -16,6 +16,8 @@ import java.util.UUID;
 @Service
 public class ImageProcessingService {
 
+
+
     private final Cloudinary cloudinary;
     private final Logger logger = LoggerFactory.getLogger(ImageProcessingService.class);
 
